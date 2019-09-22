@@ -32,8 +32,8 @@ class Owner
    @cats
  end 
  
- def buy_cat(cat)
-   @cats.push(cat)
+ def buy_cat(name)
+   Cat.new(name, self)
  end
  
  def dogs
