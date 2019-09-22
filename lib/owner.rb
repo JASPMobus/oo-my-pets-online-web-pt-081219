@@ -61,5 +61,8 @@ class Owner
      pet.mood = "nervous"
      pet.owner = nil
    end
+   
+   @cats = []
+   @dogs = []
  end
 end
