@@ -60,6 +60,7 @@ class Owner
    (@cats+@dogs).each do |pet|
      pet.name
    end
+ end
  
  def sell_pets
    (@cats+@dogs).map do |pet|
