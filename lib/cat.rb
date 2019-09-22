@@ -9,6 +9,8 @@ class Cat
     @owner = owner
     @mood = "nervous"
     
+    owner.cats.push(self)
+    
     @@all << self
   end
   
