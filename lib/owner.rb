@@ -41,7 +41,6 @@ class Owner
  end
  
   def buy_dog(dog)
-   dog.owner=self
    @dogs.push(dog)
  end
 end
