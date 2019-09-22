@@ -56,6 +56,11 @@ class Owner
    end
  end 
  
+ def list_pets
+   (@cats+@dogs).each do |pet|
+     pet.name
+   end
+ 
  def sell_pets
    (@cats+@dogs).map do |pet|
      pet.mood = "nervous"
