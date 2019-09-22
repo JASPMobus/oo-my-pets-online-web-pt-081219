@@ -62,5 +62,4 @@ class Owner
      pet.ownder = nil
    end
  end
-     
 end
