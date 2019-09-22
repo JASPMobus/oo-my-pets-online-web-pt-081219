@@ -36,6 +36,12 @@ class Owner
    Cat.new(name, self)
  end
  
+ def feed_cats
+   @cats.map do |cat|
+     cat.mood = "happy"
+   end
+ end 
+ 
  def dogs
    @dogs
  end
