@@ -26,4 +26,8 @@ class Owner
  def self.reset_all
    @@all = []
  end
+ 
+ def buy_cat(cat)
+   @cats.push(cat)
+ end
 end
