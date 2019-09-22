@@ -9,7 +9,7 @@ class Dog
     @owner = owner
     @mood = "nervous"
     
-    owner.cats.push(self)
+    owner.dogs.push(self)
     
     @@all << self
   end
