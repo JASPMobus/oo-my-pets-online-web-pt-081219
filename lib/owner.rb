@@ -27,6 +27,8 @@ class Owner
    @@all = []
  end
  
+ def 
+ 
  def buy_cat(cat)
    cat.owner=self
    @cats.push(cat)
