@@ -57,9 +57,7 @@ class Owner
  end 
  
  def list_pets
-   (@cats+@dogs).each do |pet|
-     pet.name
-   end
+   "I have #{@dogs.length} dog(s), and #{@cats.length} cat(2)"
  end
  
  def sell_pets
