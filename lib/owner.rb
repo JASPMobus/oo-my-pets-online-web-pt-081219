@@ -33,7 +33,6 @@ class Owner
  end 
  
  def buy_cat(cat)
-   cat.owner=self
    @cats.push(cat)
  end
  
