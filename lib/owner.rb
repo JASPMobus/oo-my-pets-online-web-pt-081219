@@ -31,4 +31,9 @@ class Owner
    cat.owner=self
    @cats.push(cat)
  end
+ 
+  def buy_dog(dog)
+   dog.owner=self
+   @dogs.push(dog)
+ end
 end
