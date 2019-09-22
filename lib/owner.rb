@@ -40,7 +40,7 @@ class Owner
    @dogs
  end
  
-  def buy_dog(dog)
-   @dogs.push(dog)
+  def buy_dog(name)
+   Dog.new(name, self)
  end
 end
